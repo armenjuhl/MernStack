@@ -26,6 +26,7 @@ a:link {
 
 .jumbotron {
 	padding: 70px 30px 70px 30px;
+	margin: 0px auto;
 }
 
 .banner-color {
@@ -42,4 +43,10 @@ a:link {
 
 .accent-color {
 	color: #CA374B;
+}
+
+.address {
+	font-size: 80%;
+	margin: 0px;
+	colro: #0f0f0f;
 }
