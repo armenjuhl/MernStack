@@ -3,11 +3,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a:link {
+	color: white;
+}
+
+#link-rd {
 	color: #cc0000;
 }
 
 a:visited {
-	color: #CA374B;
+	color: white;
 }
 
 .row-header {
@@ -28,6 +32,15 @@ a:visited {
 	padding: 20px 0 20px 0;
 }
 
+body {
+    padding: 50px 0 0 0;
+	z-index: 0;
+}
+
+.navbar-dark 
+	background-color: black;
+}
+
 .jumbotron {
 	padding: 70px 30px 70px 30px;
 	margin: 0px auto;
@@ -35,6 +48,14 @@ a:visited {
 
 .banner-color {
 	background-color: #218EC0;
+}
+
+#bg-primary {
+	background-color: #218EC0;
+}
+
+#bg-secondary {
+	background-color: rgb(8, 82, 115);
 }
 
 .primary-color {
@@ -49,8 +70,8 @@ a:visited {
 	color: #CA374B;
 }
 
-.address {
+address {
 	font-size: 80%;
 	margin: 0px;
-	colro: #0f0f0f;
+	color: #0f0f0f;
 }

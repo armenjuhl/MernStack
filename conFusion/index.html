@@ -16,7 +16,28 @@
 </head>
 
 <body>
-    <header class="jumbotron banner-color">
+	<nav id="bg-secondary" class="navbar navbar-expand-sm fixed-top">
+		<div class="container">
+
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<a class="navbar-brand mr-auto" href="./index.html">Ristorante Con Fusion</a>
+
+			<div class="collapse navbar-collapse" id="Navbar">
+
+				<ul class="navbar-nav mr-auto" style="padding-left: 1em;">
+					<li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+					<li class="nav-item"><a class="nav-link" href="aboutus.html">About</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+    <header class="jumbotron" id="bg-primary">
         <div class="container">
             <div class="row row-header">
                 <div class="col-12 col-sm-6">
@@ -63,13 +84,13 @@
         </div>
     </div>
 
-    <footer class="footer banner-color">
+    <footer class="footer" id="bg-secondary">
         <div class="container">
             <div class="row"> 
                 <div class="col-4 offset-1 col-sm-2">
                     <h5 style="color: white;">Links</h5>
                     <ul class="list-unstyled">
-                        <li><a href="#">Home</a></li>
+                        <li><a href="index.html">Home</a></li>
                         <li><a href="aboutus.html">About</a></li>
                         <li><a href="#">Menu</a></li>
                         <li><a href="#">Contact</a></li>

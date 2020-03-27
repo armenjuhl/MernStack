@@ -1,3 +1,4 @@
+<!-- Written by Armen Juhl March 2020 -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,11 +12,30 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
 
-    <title>Ristorante Con Fusion: About Us</title>
-
+    <title>Ristorante Con Fusion</title>
 </head>
 
 <body>
+    <nav id="bg-secondary" class="navbar navbar-expand-sm fixed-top">
+        <div class="container">
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <a class="navbar-brand mr-auto" href="./index.html">Ristorante Con Fusion</a>
+
+            <div class="collapse navbar-collapse" id="Navbar">
+
+                <ul class="navbar-nav mr-auto" style="padding-left: 1em;">
+                    <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="#">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
     <header class="jumbotron banner-color">
         <div class="container">
@@ -32,6 +52,11 @@
 
     <div class="container">
         <div class="row">
+			<ol class="col-12 breadcrumb">
+				<li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+                <li class="breadcrumb-item active">About Us</li>
+			</ol>
+
             <div class="col-12">
                <h3>About Us</h3>
                <hr>
@@ -49,7 +74,7 @@
         </div>
 
 
-        <div class="row row-content align-items-center">
+        <div class="row row-content align-items-center d-block d-sm-none">
             <div class="col-12">
                 <h2>Corporate Leadership</h2>
                 <h3>Peter Pan <small>Chief Epicurious Officer</small></h3>
@@ -71,8 +96,8 @@
                 <div class="col-4 offset-1 col-sm-2">
                     <h5>Links</h5>
                     <ul class="list-unstyled">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="aboutus.html">About</a></li>
                         <li><a href="#">Menu</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
